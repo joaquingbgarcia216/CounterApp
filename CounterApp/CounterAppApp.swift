@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct CounterAppApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup("CounterApp") { // This sets the window title
             ContentView()
         }
     }
