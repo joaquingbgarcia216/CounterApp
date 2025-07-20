@@ -9,7 +9,7 @@ A clean and stylish macOS SwiftUI app for counting things — simple, fast, and 
 - Window titled “CounterApp” for a polished look
 
 ## 📸 Screenshot
-> *(Insert a screenshot here once you run the app and take one — drag it into your repo and link it)*
+![CounterApp Screenshot](screenshot.png)
 
 ## 🛠️ Built With
 - **SwiftUI** (macOS)

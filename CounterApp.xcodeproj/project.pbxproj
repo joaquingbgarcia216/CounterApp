@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC24B5A12E2CDEAA008C6E6F /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = CC24B5A02E2CDEAA008C6E6F /* Screenshot.png */; };
 		CC83A4052E2CD92400BD0A2B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC83A4042E2CD91B00BD0A2B /* .gitignore */; };
 		CC83A4072E2CD9BE00BD0A2B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CC83A4062E2CD9B800BD0A2B /* README.md */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC24B5A02E2CDEAA008C6E6F /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		CC83A3D82E2CCE2900BD0A2B /* CounterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC83A3E62E2CCE2E00BD0A2B /* CounterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC83A3F02E2CCE2E00BD0A2B /* CounterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,7 @@
 				CC83A3E92E2CCE2E00BD0A2B /* CounterAppTests */,
 				CC83A3F32E2CCE2E00BD0A2B /* CounterAppUITests */,
 				CC83A3D92E2CCE2900BD0A2B /* Products */,
+				CC24B5A02E2CDEAA008C6E6F /* Screenshot.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,6 +226,7 @@
 			files = (
 				CC83A4072E2CD9BE00BD0A2B /* README.md in Resources */,
 				CC83A4052E2CD92400BD0A2B /* .gitignore in Resources */,
+				CC24B5A12E2CDEAA008C6E6F /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
