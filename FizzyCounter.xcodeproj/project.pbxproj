@@ -31,27 +31,27 @@
 
 /* Begin PBXFileReference section */
 		CC24B5A02E2CDEAA008C6E6F /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
-		CC83A3D82E2CCE2900BD0A2B /* CounterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC83A3E62E2CCE2E00BD0A2B /* CounterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC83A3F02E2CCE2E00BD0A2B /* CounterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83A3D82E2CCE2900BD0A2B /* FizzyCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzyCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83A3E62E2CCE2E00BD0A2B /* FizzyCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzyCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83A3F02E2CCE2E00BD0A2B /* FizzyCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzyCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC83A4042E2CD91B00BD0A2B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CC83A4062E2CD9B800BD0A2B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CC83A3DA2E2CCE2900BD0A2B /* CounterApp */ = {
+		CC83A3DA2E2CCE2900BD0A2B /* FizzyCounter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CounterApp;
+			path = FizzyCounter;
 			sourceTree = "<group>";
 		};
-		CC83A3E92E2CCE2E00BD0A2B /* CounterAppTests */ = {
+		CC83A3E92E2CCE2E00BD0A2B /* FizzyCounterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CounterAppTests;
+			path = FizzyCounterTests;
 			sourceTree = "<group>";
 		};
-		CC83A3F32E2CCE2E00BD0A2B /* CounterAppUITests */ = {
+		CC83A3F32E2CCE2E00BD0A2B /* FizzyCounterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CounterAppUITests;
+			path = FizzyCounterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -86,9 +86,9 @@
 			children = (
 				CC83A4062E2CD9B800BD0A2B /* README.md */,
 				CC83A4042E2CD91B00BD0A2B /* .gitignore */,
-				CC83A3DA2E2CCE2900BD0A2B /* CounterApp */,
-				CC83A3E92E2CCE2E00BD0A2B /* CounterAppTests */,
-				CC83A3F32E2CCE2E00BD0A2B /* CounterAppUITests */,
+				CC83A3DA2E2CCE2900BD0A2B /* FizzyCounter */,
+				CC83A3E92E2CCE2E00BD0A2B /* FizzyCounterTests */,
+				CC83A3F32E2CCE2E00BD0A2B /* FizzyCounterUITests */,
 				CC83A3D92E2CCE2900BD0A2B /* Products */,
 				CC24B5A02E2CDEAA008C6E6F /* screenshot.png */,
 			);
@@ -97,9 +97,9 @@
 		CC83A3D92E2CCE2900BD0A2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC83A3D82E2CCE2900BD0A2B /* CounterApp.app */,
-				CC83A3E62E2CCE2E00BD0A2B /* CounterAppTests.xctest */,
-				CC83A3F02E2CCE2E00BD0A2B /* CounterAppUITests.xctest */,
+				CC83A3D82E2CCE2900BD0A2B /* FizzyCounter.app */,
+				CC83A3E62E2CCE2E00BD0A2B /* FizzyCounterTests.xctest */,
+				CC83A3F02E2CCE2E00BD0A2B /* FizzyCounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC83A3D72E2CCE2900BD0A2B /* CounterApp */ = {
+		CC83A3D72E2CCE2900BD0A2B /* FizzyCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC83A3FA2E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "CounterApp" */;
+			buildConfigurationList = CC83A3FA2E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "FizzyCounter" */;
 			buildPhases = (
 				CC83A3D42E2CCE2900BD0A2B /* Sources */,
 				CC83A3D52E2CCE2900BD0A2B /* Frameworks */,
@@ -120,18 +120,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CC83A3DA2E2CCE2900BD0A2B /* CounterApp */,
+				CC83A3DA2E2CCE2900BD0A2B /* FizzyCounter */,
 			);
-			name = CounterApp;
+			name = FizzyCounter;
 			packageProductDependencies = (
 			);
 			productName = CounterApp;
-			productReference = CC83A3D82E2CCE2900BD0A2B /* CounterApp.app */;
+			productReference = CC83A3D82E2CCE2900BD0A2B /* FizzyCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CC83A3E52E2CCE2E00BD0A2B /* CounterAppTests */ = {
+		CC83A3E52E2CCE2E00BD0A2B /* FizzyCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC83A3FD2E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "CounterAppTests" */;
+			buildConfigurationList = CC83A3FD2E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "FizzyCounterTests" */;
 			buildPhases = (
 				CC83A3E22E2CCE2E00BD0A2B /* Sources */,
 				CC83A3E32E2CCE2E00BD0A2B /* Frameworks */,
@@ -143,18 +143,18 @@
 				CC83A3E82E2CCE2E00BD0A2B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CC83A3E92E2CCE2E00BD0A2B /* CounterAppTests */,
+				CC83A3E92E2CCE2E00BD0A2B /* FizzyCounterTests */,
 			);
-			name = CounterAppTests;
+			name = FizzyCounterTests;
 			packageProductDependencies = (
 			);
 			productName = CounterAppTests;
-			productReference = CC83A3E62E2CCE2E00BD0A2B /* CounterAppTests.xctest */;
+			productReference = CC83A3E62E2CCE2E00BD0A2B /* FizzyCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CC83A3EF2E2CCE2E00BD0A2B /* CounterAppUITests */ = {
+		CC83A3EF2E2CCE2E00BD0A2B /* FizzyCounterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC83A4002E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "CounterAppUITests" */;
+			buildConfigurationList = CC83A4002E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "FizzyCounterUITests" */;
 			buildPhases = (
 				CC83A3EC2E2CCE2E00BD0A2B /* Sources */,
 				CC83A3ED2E2CCE2E00BD0A2B /* Frameworks */,
@@ -166,13 +166,13 @@
 				CC83A3F22E2CCE2E00BD0A2B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CC83A3F32E2CCE2E00BD0A2B /* CounterAppUITests */,
+				CC83A3F32E2CCE2E00BD0A2B /* FizzyCounterUITests */,
 			);
-			name = CounterAppUITests;
+			name = FizzyCounterUITests;
 			packageProductDependencies = (
 			);
 			productName = CounterAppUITests;
-			productReference = CC83A3F02E2CCE2E00BD0A2B /* CounterAppUITests.xctest */;
+			productReference = CC83A3F02E2CCE2E00BD0A2B /* FizzyCounterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC83A3D32E2CCE2900BD0A2B /* Build configuration list for PBXProject "CounterApp" */;
+			buildConfigurationList = CC83A3D32E2CCE2900BD0A2B /* Build configuration list for PBXProject "FizzyCounter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -212,9 +212,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC83A3D72E2CCE2900BD0A2B /* CounterApp */,
-				CC83A3E52E2CCE2E00BD0A2B /* CounterAppTests */,
-				CC83A3EF2E2CCE2E00BD0A2B /* CounterAppUITests */,
+				CC83A3D72E2CCE2900BD0A2B /* FizzyCounter */,
+				CC83A3E52E2CCE2E00BD0A2B /* FizzyCounterTests */,
+				CC83A3EF2E2CCE2E00BD0A2B /* FizzyCounterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,12 +273,12 @@
 /* Begin PBXTargetDependency section */
 		CC83A3E82E2CCE2E00BD0A2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC83A3D72E2CCE2900BD0A2B /* CounterApp */;
+			target = CC83A3D72E2CCE2900BD0A2B /* FizzyCounter */;
 			targetProxy = CC83A3E72E2CCE2E00BD0A2B /* PBXContainerItemProxy */;
 		};
 		CC83A3F22E2CCE2E00BD0A2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC83A3D72E2CCE2900BD0A2B /* CounterApp */;
+			target = CC83A3D72E2CCE2900BD0A2B /* FizzyCounter */;
 			targetProxy = CC83A3F12E2CCE2E00BD0A2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,7 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CounterApp/CounterApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FizzyCounter/FizzyCounter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -419,7 +419,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = joaquinbgarcia216.CounterApp;
+				PRODUCT_BUNDLE_IDENTIFIER = joaquinbgarcia216.FizzyCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -432,7 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CounterApp/CounterApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FizzyCounter/FizzyCounter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -444,7 +444,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = joaquinbgarcia216.CounterApp;
+				PRODUCT_BUNDLE_IDENTIFIER = joaquinbgarcia216.FizzyCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -465,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CounterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CounterApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzyCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FizzyCounter";
 			};
 			name = Debug;
 		};
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CounterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CounterApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzyCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FizzyCounter";
 			};
 			name = Release;
 		};
@@ -519,7 +519,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC83A3D32E2CCE2900BD0A2B /* Build configuration list for PBXProject "CounterApp" */ = {
+		CC83A3D32E2CCE2900BD0A2B /* Build configuration list for PBXProject "FizzyCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC83A3F82E2CCE2E00BD0A2B /* Debug */,
@@ -528,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC83A3FA2E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "CounterApp" */ = {
+		CC83A3FA2E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "FizzyCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC83A3FB2E2CCE2E00BD0A2B /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC83A3FD2E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "CounterAppTests" */ = {
+		CC83A3FD2E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "FizzyCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC83A3FE2E2CCE2E00BD0A2B /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC83A4002E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "CounterAppUITests" */ = {
+		CC83A4002E2CCE2E00BD0A2B /* Build configuration list for PBXNativeTarget "FizzyCounterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC83A4012E2CCE2E00BD0A2B /* Debug */,
