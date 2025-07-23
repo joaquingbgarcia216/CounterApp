@@ -54,6 +54,11 @@
 			path = FizzyCounterUITests;
 			sourceTree = "<group>";
 		};
+		CCB5E81B2E30BA9600390B12 /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				CC83A4062E2CD9B800BD0A2B /* README.md */,
+				CCB5E81B2E30BA9600390B12 /* Screenshots */,
 				CC83A4042E2CD91B00BD0A2B /* .gitignore */,
 				CC83A3DA2E2CCE2900BD0A2B /* FizzyCounter */,
 				CC83A3E92E2CCE2E00BD0A2B /* FizzyCounterTests */,
@@ -121,6 +127,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CC83A3DA2E2CCE2900BD0A2B /* FizzyCounter */,
+				CCB5E81B2E30BA9600390B12 /* Screenshots */,
 			);
 			name = FizzyCounter;
 			packageProductDependencies = (
